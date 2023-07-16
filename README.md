@@ -23,8 +23,11 @@ Após copiado o link, você deve voltar ao terminal e digitar o seguinte comando
 
 ![image](https://github.com/thiagoreys/sistema-de-cadastro/assets/130335096/5c4f351d-292b-4f04-a011-8781550965ee)
 
-* Após feita as alterações, você pode fazer o `commit` e o `push` para salvar suas atualizações no GitHub.
-* Para isso, você deve voltar ao `terminal do bash` e coloca-lo para operar na pasta do projeto.
+## Atualizando o repositório no GitHub
+
+Após feita as alterações, você pode fazer um `commit` e um `push` para salvar suas atualizações no GitHub. Para isso, você deve:
+
+* Abrir o `Terminal Bash` e coloca-lo para operar na pasta do projeto.
 
 Existem 3 formas de fazer isso:
 
