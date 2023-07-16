@@ -83,6 +83,6 @@ Agora você deve abrir novamente o `Terminal Bash` na pasta em que deseja trabal
 ``` 
 git restore --source codigoSHA .
 ```
-> No lugar de codigoSHA você deve colar o Código SHA do commit (botão direito do mouse).
+> No lugar de codigoSHA você deve colar o `Código SHA` do commit (botão direito do mouse).
 
 Pronto, agora o repositório do projeto na versão selecionada já estará disponível para edição na sua máquina.
