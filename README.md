@@ -2,7 +2,7 @@
 > Estou usando este repositório para aprender Git e Github, os arquivos não contém projetos reais, são apenas ilustrações.
 
 ### Trabalhando em um repositório de forma offline
-* Primeiramente você precisa ter o git instalado no seu pc: https://git-scm.com/
+* Primeiramente você precisa ter o Git instalado no seu pc: https://git-scm.com/
 * Com o Git instalado, você deve uma escolher uma pasta no seu PC para armazenar o projeto, apertar com o botão direito do mouse nela e clicar em 'Git Bash Here'.
 * Após isso, irá abrir o prompt de comando do Bash.
 * Agora você deve voltar ao GitHub e abrir o repositório que deseja trabalhar no seu PC.
