@@ -74,7 +74,7 @@ Lá você vai ter acesso a todos os `commits` do seu projeto.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/4e0a08c1-5063-4c5b-9d9c-8d76be099e5f)
 
-Caso queira trabalhar em cima de alguma dessas versões, copie o código `hash` também conhecido como 'SHA' do commit em questão.
+Caso queira trabalhar em cima de alguma dessas versões, copie o código `hash` do commit também conhecido como 'SHA'.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/498a37b4-c542-4774-8475-f99ecc45075e)
 
