@@ -70,7 +70,7 @@ Para isso você deve abrir o repositório do projeto que deseja trabalhar no Git
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/7aa1210d-e8ce-4d0e-9896-0506bfc3d2b3)
 
-Lá você vai ter acesso a todas os `commits` do seu projeto.
+Lá você vai ter acesso a todos os `commits` do seu projeto.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/4e0a08c1-5063-4c5b-9d9c-8d76be099e5f)
 
