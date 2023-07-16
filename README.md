@@ -121,7 +121,7 @@ Agora iremos aprender como podemos passar essas atualizações que fizemos no `d
 ```
 git switch main
 ```
-* Após feito isso, agora basta executar os seguintes comandos:
+* Após feito isso, basta executar os seguintes comandos:
 ```
 git merge desenvolvimento
 git push origin main
