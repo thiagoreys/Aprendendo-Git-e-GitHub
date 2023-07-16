@@ -1,7 +1,7 @@
 # Aprendendo Git e Github
 > Estou usando este repositório para aprender Git e Github, os arquivos não contém projetos reais, são apenas ilustrações.
 
-### Trabalhando em um repositório de forma offline
+## Trabalhando em um repositório de forma offline
 * Primeiramente você precisa ter o Git instalado no seu pc: https://git-scm.com/
 * Com o Git instalado, você deve uma escolher uma pasta no seu PC para armazenar o projeto do seu repositório.
 * Após escolher a pasta, aperte com o botão direito do mouse nela e clique em 'Git Bash Here'.
@@ -47,3 +47,26 @@ git push
 
 Pronto, feito tudo corretamente, os arquivos já estarão atualizados em seu GitHub.
 
+## Trabalhando em versões antigas de um repositório
+
+Também existe a opção de você trabalhar em versões antigas de um projeto, para correção de bugs ou reformulação do projeto.
+Para isso você deve abrir o repositório do projeto que deseja trabalhar no GitHub e aperte no botão `commits`.
+
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/7aa1210d-e8ce-4d0e-9896-0506bfc3d2b3)
+
+Lá você vai ter acesso a todas os `commits` do seu projeto.
+
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/4e0a08c1-5063-4c5b-9d9c-8d76be099e5f)
+
+Caso queira trabalhar em cima de alguma dessas versões, copie o código `SHA` do commit em questão.
+
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/498a37b4-c542-4774-8475-f99ecc45075e)
+
+Agora você deve abrir novamente o `Terminal Bash` na pasta em que deseja trabalhar e executar os seguintes comandos:
+
+``` 
+git restore --source codigoSHA .
+```
+> No lugar de codigoSHA você deve colar o código do commit (botão direito do mouse).
+
+Pronto, agora o repositório do projeto na versão selecionada já estará disponível para edição na sua máquina.
