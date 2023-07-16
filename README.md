@@ -39,5 +39,5 @@ git push
 ```
 > Obs: os comandos devem ser executados na mesma sequência.
 
-Pronto, feito tudo corretamente, os arquivos já estaram atualizados no GitHub.
+Pronto, feito tudo corretamente, os arquivos já estaram atualizados no seu GitHub.
 
