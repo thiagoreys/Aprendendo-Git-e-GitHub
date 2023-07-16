@@ -50,7 +50,7 @@ git push
 
 Pronto, feito tudo corretamente, os arquivos já estarão atualizados em seu GitHub.
 
-## Atualizando o repositório na sua Máquina
+## Atualizando o repositório na sua máquina
 
 Caso já tenha o repositório salvo na sua máquina e queira apenas atualiza-lo para a sua versão mais recente disponível no GitHub, basta seguir os seguintes passos:
 
