@@ -66,7 +66,7 @@ E pronto, ao executar o comando, os arquivos do repositório serão atualizados 
 ## Trabalhando em versões antigas de um repositório
 
 Também existe a opção de você trabalhar em versões antigas de um projeto, para correção de bugs ou reformulação do projeto.
-Para isso você deve abrir o repositório do projeto que deseja trabalhar no GitHub e aperte no botão `commits`.
+Para isso você deve abrir o repositório do projeto que deseja trabalhar no GitHub e clique em `commits`.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/7aa1210d-e8ce-4d0e-9896-0506bfc3d2b3)
 
