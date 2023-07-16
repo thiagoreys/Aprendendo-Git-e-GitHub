@@ -36,7 +36,7 @@ Existem 3 formas de fazer isso:
 3. Você pode abrir o Bash no próprio VScode, selecionando-o nas opções de terminais:
 ![image](https://github.com/thiagoreys/sistema-de-cadastro/assets/130335096/567f02af-b1b3-459d-994f-e3e311ae0ae4)
 
-Após colocado o Bash para operar diretamente na pasta do repositório, você deve digitar os seguintes comandos.
+Após colocado o Bash para operar diretamente na pasta do repositório, você deve digitar os seguintes comandos:
 ```
 git commit . -m "mensagem de commit"
 git push
