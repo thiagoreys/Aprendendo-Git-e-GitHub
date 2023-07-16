@@ -16,7 +16,7 @@
 
 Após copiado o link, você deve voltar ao terminal e digitar o seguinte comando:
 ` git clone link `
-> No lugar de link, você cola o link que você copiou. O comando de colar pode variar, dependendo do sistema operacional utilizado. Para mim, que uso o Windowns 10, funciona apenas clicar com o botão direito do mouse, que ele já cola automaticamente.
+> No lugar de 'link' você cola o link que você copiou. O comando de colar pode variar dependendo do sistema operacional utilizado. Para mim, que uso o Windowns 10, funciona apenas clicar com o botão direito do mouse, que ele já cola automaticamente.
 
 * Após executar o comando, se tiver dado tudo certo, você já tera a cópia do projeto no seu PC.
 * Agora basta você abrir o projeto em sua IDE e já estará pronto para editá-lo.
@@ -83,6 +83,6 @@ Agora você deve abrir novamente o `Terminal Bash` na pasta em que deseja trabal
 ``` 
 git restore --source codigohash .
 ```
-> No lugar de codigohash você deve colar o código `hash` do commit (botão direito do mouse).
+> No lugar de 'codigohash' você deve colar o código `hash` do commit (botão direito do mouse).
 
 Pronto, agora o repositório do projeto na versão selecionada já estará disponível para edição na sua máquina.
