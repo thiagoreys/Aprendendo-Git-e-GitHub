@@ -3,9 +3,13 @@
 
 ### Trabalhando em um repositório de forma offline
 * Primeiramente você precisa ter o Git instalado no seu pc: https://git-scm.com/
-* Com o Git instalado, você deve uma escolher uma pasta no seu PC para armazenar o projeto, apertar com o botão direito do mouse nela e clicar em 'Git Bash Here'.
+* Com o Git instalado, você deve uma escolher uma pasta no seu PC para armazenar o projeto do seu repositório.
+* Após escolher a pasta, aperte com o botão direito do mouse nela e clique em 'Git Bash Here'.
 * Após isso, irá abrir o prompt de comando do Bash.
-* Agora você deve voltar ao GitHub e abrir o repositório que deseja trabalhar no seu PC.
+
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/b5f21784-37bd-4d22-84b0-89b23e69b001)
+
+* Feito isso, agora você deve voltar ao GitHub e abrir o repositório que deseja trabalhar no seu PC.
 * Clique no botão `<> Code` e copie o link `https` que aparecer.
 
 ![image](https://github.com/thiagoreys/sistema-de-cadastro/assets/130335096/7672d942-63bd-4cec-872a-6ad4962ca9c1)
