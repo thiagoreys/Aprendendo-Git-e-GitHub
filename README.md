@@ -50,6 +50,19 @@ git push
 
 Pronto, feito tudo corretamente, os arquivos já estarão atualizados em seu GitHub.
 
+## Atualizando o repositório na sua Máquina
+
+Caso já tenha o repositório salvo na sua máquina e queira apenas atualiza-lo para a sua versão mais recente disponível no GitHub, basta seguir os seguintes passos:
+
+* Abra o `Terminal Bash` na pasta do repositório em seu computador.
+* Digite o seguinte comando:
+```
+git pull link
+```
+> No lugar de link, você cola o link do repositório.
+
+E pronto, os arquivos do repositório do GitHub serão atualizados na sua máquina.
+
 ## Trabalhando em versões antigas de um repositório
 
 Também existe a opção de você trabalhar em versões antigas de um projeto, para correção de bugs ou reformulação do projeto.
