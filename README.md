@@ -59,9 +59,9 @@ Caso já tenha o repositório salvo na sua máquina e queira apenas atualiza-lo 
 ```
 git pull link
 ```
-> No lugar de link, você cola o link do repositório.
+> No lugar de link, você cola o link do repositório do GitHub.
 
-E pronto, os arquivos do repositório do GitHub serão atualizados na sua máquina.
+E pronto, ao executar o comando, os arquivos do repositório serão atualizados em sua máquina local.
 
 ## Trabalhando em versões antigas de um repositório
 
