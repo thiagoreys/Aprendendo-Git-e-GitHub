@@ -93,18 +93,39 @@ Até o momento só trabalhamos com o projeto principal `main`, entretanto podemo
 
 Para criar novos branchs, podemos digitar o seguinte comando no `terminal bash` do projeto:
 ```
-git checkout -b branch
+git checkout -b nome_do_branch
 ```
-> No lugar de 'branch' digitamos o nome do branch que queremos criar.
 
 Após rodar o prompt o diretório já é alterado para a `branch` criada.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/13dcfffb-0f32-40cf-a113-387f8fa44efe)
 
-Agora podemes adcionar atualizações na branch de `desenvolvimento` ao invés de diretamente no projeto principal `main`. Isso é importante para que o time de desenvolvimento possa fazer testes e analisar com cautela os novos códigos adcionados, para que assim o projeto corra menor risco de *bugs* e incompatibilidades.
+Agora podemes adcionar atualizações na branch de `desenvolvimento` ao invés de diretamente no projeto principal `main`. Isso é importante para que o time de desenvolvimento possa fazer testes e analisar com cautela os novos códigos adcionados, para que assim se corra menos riscos de *bugs* e incompatibilidades.
 
-Caso queira voltar para branch principal, basta digitiar o seguinte comando:
+Para adcionarmos as atualizações no branch de `desenvolvimento`, devemos executar os seguintes comandos no `terminal bash`:
+```
+git add .
+git commit -m "mensagem de commit"
+git push origin nome_do_branch
+```
+Pronto, a atualização será postada apenas na branch de desenvolvimento. Essas atualizações podem ser vizualizadas diretamente no GitHub, basta clicar no botâo em que está escrito `main` e alterar para a branch que deseja.
 
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/e65afca9-3b1b-40d6-b8ba-8ca9e1d53c90)
+
+
+## Transferindo arquivos entre branchs
+
+Agora iremos aprender como podemos passar essas atualizações que fizemos no `desenvolvimento` para a branch principal `main`. Para isso devemos seguir os seguintes passos:
+
+* Alterar o diretório de operação no `terminal bash` para a branch que queremos mover os arquivos `main`. Para isso, digitamos o seguinte comando:
 ```
 git switch main
 ```
+* Após feito isso, agora basta executar os seguintes comandos:
+```
+git merge desenvolvimento
+git push origin main
+```
+> Obs: no comando 'merge' digitamos a branch da qual queremos copiar os arquivos (desenvolvimento), no comando 'push' digitamos a branch a qual queremos colar os novos arquivos (main).
+
+E pronto, as atualizações serão enviadas para o projeto principal.
