@@ -6,7 +6,7 @@ Para fazer commit via código pelo terminal do bash, deve-se digitar as seguinte
 
 ```
 git commit . -m "mensagem de commit"
-git push origin main
+git push
 ```
 
 Obs: os comandos devem ser executados em sequência, um após o outro, na mesma ordem apresentada.
