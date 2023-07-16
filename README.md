@@ -9,4 +9,4 @@ git commit . -m "mensagem de commit"
 git push origin main
 ```
 
-obs: os comandos devem ser executados em sequência, um após o outro, na mesma ordem apresentada.
+Obs: os comandos devem ser executados em sequência, um após o outro, na mesma ordem apresentada.
