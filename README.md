@@ -74,7 +74,7 @@ Lá você vai ter acesso a todos os `commits` do seu projeto.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/4e0a08c1-5063-4c5b-9d9c-8d76be099e5f)
 
-Caso queira trabalhar em cima de alguma dessas versões, copie o código `SHA` do commit em questão.
+Caso queira trabalhar em cima de alguma dessas versões, copie o `Código SHA` do commit em questão.
 
 ![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/498a37b4-c542-4774-8475-f99ecc45075e)
 
@@ -83,6 +83,6 @@ Agora você deve abrir novamente o `Terminal Bash` na pasta em que deseja trabal
 ``` 
 git restore --source codigoSHA .
 ```
-> No lugar de codigoSHA você deve colar o código do commit (botão direito do mouse).
+> No lugar de codigoSHA você deve colar o Código SHA do commit (botão direito do mouse).
 
 Pronto, agora o repositório do projeto na versão selecionada já estará disponível para edição na sua máquina.
