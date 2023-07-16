@@ -86,3 +86,25 @@ git restore --source codigohash .
 > No lugar de 'codigohash' você deve colar o código `hash` do commit (botão direito do mouse).
 
 Pronto, agora o repositório do projeto na versão selecionada já estará disponível para edição na sua máquina.
+
+## Criando ramificações no projeto (Branchs)
+
+Até o momento só trabalhamos com o projeto principal `main`, entretanto podemos ramificar o nosso projeto em branchs para `desenvolvimento` e `testes` por exemplo, o que é muito importante para organização de projetos maiores em que se trabalham equipes de desenvolvedores.
+
+Para criar novos branchs, podemos digitar o seguinte comando no `terminal bash` do projeto:
+```
+git checkout -b branch
+```
+> No lugar de 'branch' digitamos o nome do branch que queremos criar.
+
+Após rodar o prompt o diretório já é alterado para a `branch` criada.
+
+![image](https://github.com/thiagoreys/Aprendendo-Git-e-GitHub/assets/130335096/13dcfffb-0f32-40cf-a113-387f8fa44efe)
+
+Agora podemes adcionar atualizações na branch de `desenvolvimento` ao invés de diretamente no projeto principal `main`. Isso é importante para que o time de desenvolvimento possa fazer testes e analisar com cautela os novos códigos adcionados, para que assim o projeto corra menor risco de *bugs* e incompatibilidades.
+
+Caso queira voltar para branch principal, basta digitiar o seguinte comando:
+
+```
+git switch main
+```
